@@ -53,3 +53,12 @@ codegen-units = 16
 panic = 'unwind'
 incremental = true
 overflow-checks = true
+
+[patch.crates-io]
+wasmer = { git = "https://github.com/gonka-ai/wasmer", rev = "0a354f0583d78b9be0d89fd98bde6f15ad4be7e5" }
+wasmer-compiler = { git = "https://github.com/gonka-ai/wasmer", rev = "0a354f0583d78b9be0d89fd98bde6f15ad4be7e5" }
+wasmer-compiler-singlepass = { git = "https://github.com/gonka-ai/wasmer", rev = "0a354f0583d78b9be0d89fd98bde6f15ad4be7e5" }
+wasmer-derive = { git = "https://github.com/gonka-ai/wasmer", rev = "0a354f0583d78b9be0d89fd98bde6f15ad4be7e5" }
+wasmer-middlewares = { git = "https://github.com/gonka-ai/wasmer", rev = "0a354f0583d78b9be0d89fd98bde6f15ad4be7e5" }
+wasmer-types = { git = "https://github.com/gonka-ai/wasmer", rev = "0a354f0583d78b9be0d89fd98bde6f15ad4be7e5" }
+wasmer-vm = { git = "https://github.com/gonka-ai/wasmer", rev = "0a354f0583d78b9be0d89fd98bde6f15ad4be7e5" }

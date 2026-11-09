@@ -3193,8 +3193,7 @@ dependencies = [
 [[package]]
 name = "wasmer"
 version = "7.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ddfde3972691f1082774c71c42e21add1d1838cb6482a6921a0ba8a993e0046a"
+source = "git+https://github.com/gonka-ai/wasmer?rev=0a354f0583d78b9be0d89fd98bde6f15ad4be7e5#0a354f0583d78b9be0d89fd98bde6f15ad4be7e5"
 dependencies = [
  "bindgen",
  "bytes",
@@ -3227,8 +3226,7 @@ dependencies = [
 [[package]]
 name = "wasmer-compiler"
 version = "7.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2a657969bd92c09676e72916b6fed181ebb239f441266458edff37c5e13eb1f8"
+source = "git+https://github.com/gonka-ai/wasmer?rev=0a354f0583d78b9be0d89fd98bde6f15ad4be7e5#0a354f0583d78b9be0d89fd98bde6f15ad4be7e5"
 dependencies = [
  "addr2line 0.27.1",
  "backtrace",
@@ -3268,8 +3266,7 @@ dependencies = [
 [[package]]
 name = "wasmer-compiler-singlepass"
 version = "7.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ece6505e2270f1083d4e677a7cf36d11870f682c3b05fd0a4687094ef85fdd5b"
+source = "git+https://github.com/gonka-ai/wasmer?rev=0a354f0583d78b9be0d89fd98bde6f15ad4be7e5#0a354f0583d78b9be0d89fd98bde6f15ad4be7e5"
 dependencies = [
  "byteorder",
  "dynasm",
@@ -3290,8 +3287,7 @@ dependencies = [
 [[package]]
 name = "wasmer-derive"
 version = "7.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e65a98d988cf249317ec2af01526e04aafafc32503e23525e9d5fbe1c498d2db"
+source = "git+https://github.com/gonka-ai/wasmer?rev=0a354f0583d78b9be0d89fd98bde6f15ad4be7e5#0a354f0583d78b9be0d89fd98bde6f15ad4be7e5"
 dependencies = [
  "proc-macro-error2",
  "proc-macro2",
@@ -3302,8 +3298,7 @@ dependencies = [
 [[package]]
 name = "wasmer-middlewares"
 version = "7.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0b2a523d1c9042378b86abb8a816c894412ce1feef12b9bb10643c0ab2ba7a2f"
+source = "git+https://github.com/gonka-ai/wasmer?rev=0a354f0583d78b9be0d89fd98bde6f15ad4be7e5#0a354f0583d78b9be0d89fd98bde6f15ad4be7e5"
 dependencies = [
  "wasmer",
  "wasmer-types",
@@ -3313,8 +3308,7 @@ dependencies = [
 [[package]]
 name = "wasmer-types"
 version = "7.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e1a2572e35ea0fe9ac0d3c289b83ee457220e2b1a0b0d9e74a8dfef240064223"
+source = "git+https://github.com/gonka-ai/wasmer?rev=0a354f0583d78b9be0d89fd98bde6f15ad4be7e5#0a354f0583d78b9be0d89fd98bde6f15ad4be7e5"
 dependencies = [
  "bytecheck",
  "crc32fast",
@@ -3335,8 +3329,7 @@ dependencies = [
 [[package]]
 name = "wasmer-vm"
 version = "7.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3b60bc87e4993702174a81a6dd4503d915331b1d50caf868fd0998f61f34afa5"
+source = "git+https://github.com/gonka-ai/wasmer?rev=0a354f0583d78b9be0d89fd98bde6f15ad4be7e5#0a354f0583d78b9be0d89fd98bde6f15ad4be7e5"
 dependencies = [
  "backtrace",
  "bytesize",
